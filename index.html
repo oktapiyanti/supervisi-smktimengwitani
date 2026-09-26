@@ -463,13 +463,14 @@
 
         <!-- Printable Document Content -->
         <div id="modal-printable-content" class="space-y-6 text-slate-800">
-            <!-- Kop Surat Resmi SMK TI Mengwitani dengan logo kiri -->
-            <div class="kop-border text-center pb-3 flex items-center justify-between gap-4">
-                 <!-- Logo Kiri (Logo Sekolah / Yayasan) -->
+            <!-- Kop Surat Resmi SMK TI Mengwitani dengan Logo Kiri & Kanan -->
+            <div class="kop-border pb-3 flex items-center justify-between gap-4">
+                <!-- Logo Kiri (Logo Sekolah / Yayasan) -->
                 <div class="w-20 h-20 flex-shrink-0 flex items-center justify-center">
-                    <img id="kop-logo-kiri" src="logosmkti.png" alt="Logo Sekolah" class="max-h-20 max-w-20 object-contain" onerror="this.onerror=null; this.src='https://via.placeholder.com/80?text=LOGO+SEKOLAH';">
+                    <img id="kop-logo-kiri" src="logo.png" alt="Logo Sekolah" class="max-h-20 max-w-20 object-contain" onerror="this.onerror=null; this.src='https://via.placeholder.com/80?text=LOGO+SEKOLAH';">
                 </div>
-<!-- Teks Identitas Sekolah -->
+
+                <!-- Teks Identitas Sekolah -->
                 <div class="text-center flex-1">
                     <h6 class="m-0 font-semibold text-xs tracking-wider uppercase text-slate-700">YAYASAN NADI WISATA</h6>
                     <h2 class="m-0 text-xl font-extrabold tracking-wide text-slate-900 uppercase">SMK TI MENGWITANI</h2>
@@ -477,7 +478,13 @@
                     <p class="m-0 text-[10px] text-slate-600">Jl. Raya Denpasar-Mengwitani Km. 15, Telp. (0361) 830888, Fax (0361) 813085 Mengwi – Badung – Bali</p>
                     <p class="m-0 text-[10px] text-brand-700 font-medium">email : timengwitanibali@gmail.com</p>
                 </div>
-               
+
+                <!-- Logo Kanan (Opsional: Logo Tut Wuri Handayani / Dinas) -->
+                <div class="w-20 h-20 flex-shrink-0 flex items-center justify-center">
+                    <img id="kop-logo-kanan" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg" alt="Logo Pendidikan" class="max-h-20 max-w-20 object-contain" onerror="this.style.display='none'">
+                </div>
+            </div>
+
             <div class="text-center">
                 <h3 class="text-base font-bold uppercase tracking-wide">REKAPITULASI RAPOR SUPERVISI AKADEMIK GURU</h3>
                 <p class="text-xs font-semibold text-slate-600">KURIKULUM MERDEKA - TAHUN AJARAN 2026/2027</p>
